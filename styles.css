@@ -59,3 +59,84 @@ nav a:hover{
 }
 
 /*HEADER SECTION ENDS */
+
+
+
+
+/*HOME SECTION STARTS*/
+.home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.home-left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-left p{
+    color: #090a0c;
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.home-left h1{
+    font-size: 60px;
+    color: #090a0c;
+    font-weight: 600;
+    margin: 0 0 15px;
+    line-height: 1;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+
+}
+
+#btn{
+    margin-top: 50px;
+
+}
+.home-left span{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+#btn a{
+    text-decoration:none ;
+    padding: 15px 20px;
+    transition: ease-in-out all 0.55s;
+}
+.lef-btn a{
+    color: white;
+    background-color:#d9832e;
+}
+.lef-btn a:hover{
+    background-color: white;
+    color: #d9832e;
+    border: 2px solid #d9832e;
+}
+
+.rit-btn a{
+    border: 2px solid #d9832e;
+    color: #d9832e;
+}
+.rit-btn a:hover{
+    background-color: #d9832e;
+    color: white;
+}
+
+.home-right{
+    padding-left: 50px;
+}
+
+
+/*HOME SECTION ENDS*/
