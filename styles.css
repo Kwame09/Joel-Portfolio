@@ -159,6 +159,7 @@ nav a:hover{
 .sel-deta{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 60px;
 }
 .sel-deta p{
@@ -194,7 +195,17 @@ nav a:hover{
 .skills h1{
     margin: 0;
 }
-
+.top-details{
+    position: relative;
+}
+.underline{
+    width: 115px;
+    height: 3px;
+    background-color: #d9832e;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
 .top-details h1{
     display: block;
     font-size: 2em;
@@ -264,6 +275,7 @@ nav a:hover{
 .img-ctrl{
     display: flex;
     gap: 20px;
+    flex-wrap: wrapgit;
 }
 .img-ctrl img{
     height: 230px;
