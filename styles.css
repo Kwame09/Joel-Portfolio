@@ -68,8 +68,9 @@ nav a:hover{
     display: flex;
     width: 100%;
     height: 100vh;
-    margin-top: 30px;
-    justify-content: center;
+    margin-top: px;
+    justify-content: flex-start;
+    gap: 30px;
 }
 
 .home-left{
@@ -78,6 +79,7 @@ nav a:hover{
     height: 100%;  
     justify-content: center;
     gap: 10px;
+    margin-left: 90px;
 }
 
 .home-left p{
@@ -135,8 +137,205 @@ nav a:hover{
 }
 
 .home-right{
-    padding-left: 50px;
+    
 }
 
 
 /*HOME SECTION ENDS*/
+
+
+
+
+
+/*ABOUT SECTION STARTS*/
+.about{
+    height: 500px;
+    width: auto;
+    background-color: gainsboro;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+.sel-deta{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+.sel-deta p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.details{
+    border: 2px solid #d9832e;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+
+.skills{
+    border: 2px solid #d9832e;
+    border-radius: 10px;
+    width: 180px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 15px;
+    background-color: white;
+}
+.skills h1{
+    margin: 0;
+}
+
+.top-details h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.top-details p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #555a64;
+    line-height: 1.6;
+}
+/*ABOUT SECTION ENDS*/
+
+
+/*MY WORKS SECTION STARTS*/
+.works{
+    display: flex;
+    flex-direction: column;
+    height: 1550px;
+    width: auto;
+    margin-top: 60px;
+
+}
+.inscript{
+    margin-left: 85px;
+}
+.inscript h1{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    z-index: 1;
+    padding: 0 0 10px;
+    color: #090a0c;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.inscript p{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+}
+
+.works-1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 25px 0;
+    
+}
+.img-ctrl{
+    display: flex;
+    gap: 20px;
+}
+.img-ctrl img{
+    height: 230px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*MY WORKS SECTION ENDS*/
+
+
+
+
+
+/*CONTACT SECTION STARTS*/
+.contact{
+    height: 400px;
+    width: auto;
+    background-color: gainsboro;
+
+}
+
+.contact-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box{
+    height: 150px;
+    width: 270px;
+    border: 2px solid #d9832e;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    
+    
+}
+
+.contact-box h2{
+    padding: 0;
+    margin: 0;
+    height: 20%;
+    color: #d9832e;
+}
+.contact-box p{
+    font-size: 1.2rem;
+    color: #555a64;
+    margin: 0;
+}
+/*CONTACT SECTION ENDS */
+
+
+
+
+
+
+/*FOOTER SECTION STARTS*/
+
+
+.copyright{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d9832e;
+    font-size: 1rem;
+    background-color: white;
+    font-size: 1.2rem;
+}
+/*FOOTER SECTION ENDS*/
